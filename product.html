@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 130px 130px 130px 130px;
+            grid-template-rows: 210px 210px 210px;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+        }
+        .grid-container .grid-item{
+            /* border: 1px solid rgba(0, 0, 0, 0.8); */
+            box-shadow: 1px 8px 12px #CCCCCC;
+            border-radius: 10%;
+            /* background-color: aquamarine; */
+            font-family: sans-serif;
+            font-size: 10px;
+        }
+        .grid-container .grid-item .round-border{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .grid-container .grid-item .round-border .image{
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+            <div class="grid-item">
+                <div class="round-border">
+                    <img src="4.png" alt="" class="image">
+                </div>
+                <h1>Vergie tomato</h1>
+                <h2>IDR 34000</h2>
+            </div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">2</div>
+            <div class="grid-item">3</div>
+            <div class="grid-item">4</div>
+            <div class="grid-item">5</div>
+            <div class="grid-item">6</div>
+            <div class="grid-item">6</div>
+    </div>
+</body>
+</html>
