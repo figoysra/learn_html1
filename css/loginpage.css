@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+.sign {
+    font-family: sans-serif;
+}
+
+.sign h1 {
+    margin: 50px;
+    text-align: center;
+    color: #6A4029;
+    font-weight: 800;
+}
+
+label {
+    color: #4F5665;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+input {
+    width: 60%;
+    border: 1px solid #4F5665;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px 5px;
+    border-radius: 15px;
+}
+
+.signupbutton {
+    margin-top: 20px;
+    width: 100%;
+
+}
+
+.button {
+    width: 61%;
+    margin-left: 20%;
+    list-style-type: none;
+    padding: 0px;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.signup {
+    border-radius: 10px;
+    padding: 10px;
+    color: #4F5665;
+    box-shadow: 5px 5px 10px #CCCCCC;
+    background-color: #ffba33;
+}
+
+.google {
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: white;
+    box-shadow: 1px 5px 10px #CCCCCC;
+}
+
+a {
+    margin-left: 3px;
+    text-decoration: none;
+    color: black;
+}
