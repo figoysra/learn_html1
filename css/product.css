@@ -1,20 +1,20 @@
 @font-face {
-    font-family: rubik;
-    src: url(../font/Rubik.ttf);
+    font-family: poppins;
+    src: url(../font/Poppins-Black.ttf);
 }
 
 .row {
     display: flex;
     justify-content: center;
-    font-family: rubik;
+    font-family: poppins;
 }
 
 .product {
     margin: 20px;
     position: relative;
     box-shadow: 1px 10px 10px #CCCCCC;
-    width: 150px;
-    height: 200px;
+    width: 120px;
+    height: 210px;
     text-align: center;
     border-radius: 30px;
 }
@@ -25,19 +25,21 @@
     position: absolute;
     overflow: hidden;
     top: -25px;
-    left: 25px;
-    right: 25px;
+    left: 10px;
+    right: 10px;
     border-radius: 100px;
 }
 
 h1 { 
-    margin-top: 110px;
+    padding: 10px;
+    margin-top: 80px;
     font-size: 20px;
     font-weight: 700;
     height: 30px;
 }
 
 h2 {
+    padding: 20px;
     color: #6A4029;
     font-weight: 600;
     font-size: 15px;
