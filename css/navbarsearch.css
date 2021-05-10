@@ -65,11 +65,13 @@ body {
     border-radius: 10px;
     border: 1px solid #4F5665;
     padding: 5px 10px;
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .secondary-menu .chat{
     position: relative;
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .secondary-menu .chat .notif{
     position: absolute;
@@ -89,7 +91,8 @@ body {
     height: 23px;
 }
 .secondary-menu .image{
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
     width: 23px;
     height: 23px;
     overflow: hidden;
